@@ -18,7 +18,7 @@ $( document ).ready(function() {
 
 function scaleVideoContainer() {
 
-    var height = $(window).height() + 5;
+    var height = ($(window).height() > 1000) ? 1000 : $(window).height() + 5;
     var unitHeight = parseInt(height) + 'px';
     $('.homepage-hero-module').css('height',unitHeight);
 
