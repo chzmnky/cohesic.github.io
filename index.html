@@ -1,127 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Cohesic - Enterprise Cadiovascular Software.">
+  <meta name="format-detection" content="telephone=no">
+  <title>Cohesic - Enterprise Cadiovascular Software</title>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>Cohesic - Enterprise Cadiovascular Software</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link href="css/cohesic.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <style>
-    body {
-        padding-top: 54px;
-    }
-
-    @media (min-width: 992px) {
-        body {
-            padding-top: 56px;
-        }
-    }
-    /* Temporary navbar container fix */
-
-    .navbar-toggler {
-        z-index: 1;
-    }
-
-    @media (max-width: 576px) {
-        nav > .container {
-            width: 100%;
-        }
-    }
-    </style>
-
-    <!-- Firefox, Chrome, Safari, IE 11+ and Opera. 196x196 pixels in size. --> <link rel="icon" href="assets/logo_all_black_transparent.png">
-
+  <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/css/cohesic.css" rel="stylesheet">
+  <link rel="icon" href="/assets/logo_all_black_transparent.png">
 </head>
-
 <body>
-
-    <!-- Navigation -->
-    <nav class="navbar fixed-top navbar-toggleable-md navbar-inverse bg-inverse">
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarExample" aria-controls="navbarExample" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="container">
-            <a class="navbar-brand" href="#"><img src="assets/logo_all_white.png" alt="Cohesic Logo" height="42"></img></a>
-            <div class="collapse navbar-collapse" id="navbarExample">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                      <a href="https://sandbox.app.cohesic.com" ><button type="button" class="btn btn-outline-secondary">Login</button></a>
-                    </li>
-
-                </ul>
-            </div>
+  <div id="page-wrapper">
+    <div id="page-content">
+      <!-- Page Content -->
+      <div id="main-wrapper">
+        <div id="main-header" class="clearfix">
+          <!-- Navigation -->
+          <nav class="navbar fixed-top navbar-toggleable-md">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a href="https://sandbox.app.cohesic.com" class="btn btn-primary">Login</a>
+              </li>
+            </ul>
+          </nav>
         </div>
-    </nav>
 
-    <!-- Page Content -->
-
-    <!-- Main jumbotron for the coverr video -->
-    <div class="homepage-hero-module">
-      <div class="video-container">
-        <div class="title-container">
+        <div id="main-content">
           <div class="headline">
-            <h1>COHESIC</h1>
-
+            <h1><img src="/assets/logo_all_white_shadow.png" width="120"> Cohesic</h1>
           </div>
           <div class="description">
-            <div class="inner">We are working with hospitals around the world to improve outcomes for patients with cardiovascular disease.</div>
-          </div>
-        </div>
-        <div class="filter"></div>
-        <video autoplay loop class="fillWidth">
-          <source src="assets/MP4/Up.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
-          <source src="assets/WEBM/Up.webm" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
-          <img src="assets/Snapshots/Up.jpg" alt="">
-        </video>
-        <!-- <div class="poster hidden">
-          <img src="assets/Clouds_Lapse.jpg" alt="">
-        </div> -->
-      </div>
-      </div>
+            <div class="inner">
+              <div>
+                We are working with hospitals around the world to improve outcomes for patients with cardiovascular disease.
+              </div>
 
-    <!-- Address -->
-    <div class="container">
-      <div class="row mt-20">
-          <div class="col-lg-12 text-center">
-              <p>
-                Cohesic Inc.<br>
-                700 - 1816 Crowchild Trial NW<br>
-                Calgary, AB, T2M 3Y7<br>
-                info@cohesic.com<br>
-                403-313-8296
-              </p>
-          </div>
-      </div>
-    </div>
-
-    <!-- Footer -->
-    <footer>
-        <div class="row">
-            <div class="col-lg-12 text-center bg-inverse text-white mt-20">
-                <p>Copyright &copy; Cohesic Inc. 2017.</p>
+              <address id="contact-block" itemscope itemtype="http://schema.org/MedicalBusiness">
+                <div itemprop="name" style="font-weight: bold;">Cohesic Inc.</div>
+                <div itemprop="address">
+                  700 - 1816 Crowchild Trial NW<br>
+                  Calgary, AB, T2M 3Y7
+                </div>
+                <a href="mailto:info@cohesic.com" itemprop="email">info@cohesic.com</a><br>
+                <a href="tel:+14033138296" itemprop="telephone" rel="nofollow">403-313-8296</a>
+              </address>
             </div>
-        </div>
-    </footer>
+          </div>
+        </div> <!-- /#main-content -->
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/tether/tether.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+        <!-- Footer -->
+        <footer id="main-footer">
+          <div class="row">
+            <div class="col-lg-12 text-center">
+              <p>Copyright &copy; Cohesic Inc. 2017</p>
+            </div>
+          </div>
+        </footer>
+      </div>
 
-    <!-- Play the Coverr video -->
-    <script src="src/coverr.js"></script>
-
+      <div id="video-filter"></div>
+      <video id="video-content" playsinline autoplay loop poster="assets/Snapshots/Up.jpg">
+        <source src="assets/MP4/Up.mp4" type="video/mp4">
+        <source src="assets/WEBM/Up.webm" type="video/webm">
+        Your browser does not support the video tag. I suggest you upgrade your browser.
+      </video>
+    </div> <!-- /#page-content -->
+  </div>
 </body>
-
 </html>
