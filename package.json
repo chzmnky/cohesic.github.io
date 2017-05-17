@@ -1,34 +1,16 @@
 {
-    "title": "Bare",
-    "name": "startbootstrap-bare",
-    "version": "4.0.0-alpha",
-    "description": "A basic HTML starter template for Bootstrap",
-    "keywords": [
-        "css",
-        "sass",
-        "html",
-        "responsive",
-        "theme",
-        "template"
-    ],
-    "homepage": "http://startbootstrap.com/template-overviews/bare",
-    "bugs": {
-        "url": "https://github.com/BlackrockDigital/startbootstrap-bare/issues",
-        "email": "feedback@startbootstrap.com"
-    },
+    "title": "Cohesic Web",
+    "name": "cohesic-web",
+    "version": "1.0.0-beta",
+    "description": "Main marketing site for Cohesic",
+    "homepage": "http://cohesic.com",
     "license": "MIT",
-    "author": "Start Bootstrap",
-    "contributors": [
-        "David Miller (http://davidmiller.io/)"
-    ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/BlackrockDigital/startbootstrap-bare.git"
+        "url": "https://github.com/Cohesic/cohesic.github.io.git"
     },
     "dependencies": {
-        "bootstrap": "^4.0.0-alpha.6",
-        "jquery": "^3.2.1",
-        "tether": "^1.4.0"
+        "bootstrap": "^4.0.0-alpha.6"
     },
     "devDependencies": {
         "browser-sync": "^2.18.8",
