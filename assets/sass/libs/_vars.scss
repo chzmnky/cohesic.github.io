@@ -30,25 +30,27 @@
 
 // Font.
 	$font: (
-		family:					('Montserrat', Helvetica, sans-serif),
-		family-fixed:			('Courier New', monospace),
-		family-heading:			(Raleway, Helvetica, sans-serif),
+		family:					('Lato', Helvetica, sans-serif),
+		family-fixed:			(Monaco, 'Courier New', monospace),
+		family-heading:			('Montserrat', Helvetica, sans-serif),
 		weight:					300,
 		weight-bold:			600,
-		weight-heading:			200,
-		weight-heading-bold:	700,
-		kern-heading:			0.1em
+		weight-heading:			400,
+		weight-heading-bold:	400,
+		kern-heading:			0.025em
 	);
 
 // Palette.
 	$palette: (
-		bg:							rgba( 24,  28,  36, 1.0),
-		fg:							rgba(202, 219, 242, 1.0),
-		fg-bold:				rgba(202, 219, 242, 1.0),
+		bg:							rgba(37, 40, 57, 1.0),
+		fg:							rgb(233, 233, 233),
+		// fg-bold:				rgba(202, 219, 242, 1.0),
+		fg-bold:				#e9e9e9,
 		fg-light:				rgba(255,255,255,0.35),
-		border:					rgba(202, 219, 242, 1.0),
+		border:					rgba(202, 219, 242, 0.42),
 		border-bg:			rgba(255,255,255,0.025),
 		border2:				rgba(255,255,255,0.25),
 		border2-bg:			rgba(255,255,255,0.075),
-		accent:					#4c5d77
-	);
+		// accent:					rgba(59, 64, 79, 1)
+		accent:					rgba(69, 71, 89, 1)
+  );

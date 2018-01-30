@@ -12,22 +12,22 @@ body {
 /* Type */
 /* line 21, ../sass/ie8.scss */
 h1.major, h2.major, h3.major, h4.major, h5.major, h6.major {
-  border-bottom: solid 2px #cadbf2;
+  border-bottom: solid 2px #e9e9e9;
 }
 
 /* line 26, ../sass/ie8.scss */
 blockquote {
-  border-left: solid 4px #cadbf2;
+  border-left: solid 4px #e9e9e9;
 }
 
 /* line 30, ../sass/ie8.scss */
 code {
-  border: solid 2px #cadbf2;
+  border: solid 2px #e9e9e9;
 }
 
 /* line 34, ../sass/ie8.scss */
 hr {
-  border-bottom: solid 2px #cadbf2;
+  border-bottom: solid 2px #e9e9e9;
 }
 
 /* Button */
@@ -39,7 +39,7 @@ button,
 .button {
   position: relative;
   -ms-behavior: url("assets/js/ie/PIE.htc");
-  border: solid 2px #cadbf2;
+  border: solid 2px #e9e9e9;
 }
 /* line 49, ../sass/ie8.scss */
 input[type="submit"].special,
@@ -61,19 +61,19 @@ textarea {
   position: relative;
   -ms-behavior: url("assets/js/ie/PIE.htc");
   background: transparent;
-  border: solid 2px #cadbf2;
+  border: solid 2px #e9e9e9;
 }
 
 /* Table */
 /* line 72, ../sass/ie8.scss */
 table tbody tr {
-  border: solid 1px #cadbf2;
+  border: solid 1px #e9e9e9;
   border-left: 0;
   border-right: 0;
 }
 /* line 82, ../sass/ie8.scss */
 table.alt tbody tr td {
-  border: solid 1px #cadbf2;
+  border: solid 1px #e9e9e9;
   border-left-width: 0;
   border-top-width: 0;
 }
@@ -111,17 +111,17 @@ table.alt tfoot {
 /* Menu */
 /* line 128, ../sass/ie8.scss */
 #menu {
-  background: #181c24;
+  background: #252839;
 }
 /* line 131, ../sass/ie8.scss */
 #menu h2 {
-  border-bottom: solid 2px #cadbf2;
+  border-bottom: solid 2px #e9e9e9;
 }
 
 /* Header */
 /* line 138, ../sass/ie8.scss */
 #header {
-  background-color: #1f232d;
+  background-color: #2c2f41;
 }
 
 /* Wrapper */
@@ -146,20 +146,20 @@ table.alt tfoot {
 /* Banner */
 /* line 167, ../sass/ie8.scss */
 #banner .logo .icon {
-  border: solid 2px #cadbf2;
+  border: solid 2px #e9e9e9;
   -ms-behavior: url("assets/js/ie/PIE.htc");
 }
 /* line 173, ../sass/ie8.scss */
 #banner h2 {
-  border-bottom: solid 2px #cadbf2;
+  border-bottom: solid 2px #e9e9e9;
 }
 
 /* Footer */
 /* line 182, ../sass/ie8.scss */
 #footer .inner .copyright {
-  border-top: solid 2px #cadbf2;
+  border-top: solid 2px #e9e9e9;
 }
 /* line 185, ../sass/ie8.scss */
 #footer .inner .copyright li {
-  border-left: solid 2px #cadbf2;
+  border-left: solid 2px #e9e9e9;
 }

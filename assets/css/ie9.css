@@ -6,15 +6,11 @@
 /* Basic */
 /* line 14, ../sass/ie9.scss */
 body {
-  background-color: #181c24;
-  background-image: url("../../images/bg.jpg");
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
+  background-color: #252839;
 }
 /* line 21, ../sass/ie9.scss */
 body:before {
-  background: rgba(24, 28, 36, 0.8);
+  background: rgba(37, 40, 57, 0.8);
   content: '';
   display: block;
   height: 100%;
