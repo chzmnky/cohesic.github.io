@@ -7,10 +7,11 @@
 /* Banner */
 
 	#banner {
-		@include padding(10em, 0, (0, 0, _size(wrapper-edges, large) * -0.5, 0));
+    padding: 4em 0 0.2em 0;
 
 		.inner {
-			margin: 0 auto;
+      margin: 0 auto;
+      text-align: center;
 			width: _size(inner);
 		}
 
@@ -22,9 +23,10 @@
 			@include vendor('transform', 'translateY(0)');
 			opacity: 1;
 			// margin: 0 0 (_size(element-margin) * 0.65) 0;
-			background: url('images/logo.png') no-repeat center;
-			background-size: contain;
-      height: 150px;
+			// background: url('/images/logo.png') no-repeat center;
+			// background-size: contain;
+      // height: 221px;
+      width: 65%;
 
 			// .icon {
 			// 	// border-radius: 100%;
@@ -78,11 +80,10 @@
 
 			background-color:		_palette(bg);
 
-			background-image:		linear-gradient(to top, transparentize(_palette(bg), 0.2), transparentize(_palette(bg), 0.2)),
-									url('../../images/bg.jpg');
+			background-image:		linear-gradient(to top, transparentize(_palette(bg), 0.2), transparentize(_palette(bg), 0.2));
 
 			background-size:		auto,
-									cover;
+      cover;
 
 			background-position:	center,
 									center;
@@ -91,7 +92,7 @@
 		}
 
 		@include breakpoint(medium) {
-			@include padding(12em, 3em, (0, 0, _size(wrapper-edges, medium) * 0.5, 0));
+			padding: 4em 3em 7em 0;
 
 		 	margin-bottom: (_size(wrapper-edges, medium) * -1);
 
@@ -101,7 +102,8 @@
 		}
 
 		@include breakpoint(small) {
-			@include padding(5em, 2em, (0, 0, _size(wrapper-edges, small) * 0.5, 0));
+			// @include padding(5em, 2em, (0, 0, _size(wrapper-edges, small) * 0.5, 0));
+			padding: 2em 2em 2em 2em;
 
 		 	margin-bottom: (_size(wrapper-edges, small) * -1);
 

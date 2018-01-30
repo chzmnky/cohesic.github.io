@@ -54,8 +54,8 @@
 
 				background-color:		_palette(bg);
 
-				background-image:		linear-gradient(to top, transparentize(_palette(bg), 0.2), transparentize(_palette(bg), 0.2)),
-										url('../../images/bg.jpg');
+				// background-image:		linear-gradient(to top, transparentize(_palette(bg), 0.2), transparentize(_palette(bg), 0.2)),
+				// 						url('../../images/bg.jpg');
 
 				background-size:		auto,
 										cover;
@@ -200,7 +200,7 @@
 			&:nth-child(2n - 1) {
 				.inner {
 					@include vendor('flex-direction', 'row-reverse');
-					text-align: right;
+					// text-align: right;
 				}
 
 				.image {
